@@ -27,9 +27,23 @@ Another way is to open is through START icon of MATLAB Start ⇒ Simulink ⇒ Li
 7.	Save the file. 
 8.	Analyze and record your inference.
 
-## Observation
+## CIRCUIT DIAGRAM
+<img width="1245" height="615" alt="image" src="https://github.com/user-attachments/assets/9ab1dea1-85d0-49db-a529-a7838eb10e6c" />
 
-<img width="886" height="420" alt="image" src="https://github.com/user-attachments/assets/7f6095ad-aaef-403a-8f89-784ecea36287" />
+### OBSERVATIONS
+
+| Duty Cycle (%) | Ideal Chopper Output Voltage (V) | Approximate Motor Speed (RPM) |
+|---------------:|---------------------------------:|------------------------------:|
+| 0              | —                                | —                             |
+| 10             | 110.3                            | 542.9                         |
+| 20             | 124.2                            | 673                           |
+| 30             | 142                              | 840.2                         |
+| 40             | 165.8                            | 1063                          |
+| 50             | 199.1                            | 1375                          |
+| 55             | 221.3                            | 1583                          |
+| 58.33          | 239.1                            | 1749                          |
+
 
 
 ## Result
+Thus to simulate the speed control of DC motor using chopper has been simulated and verified successfully.
